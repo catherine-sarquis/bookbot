@@ -7,9 +7,9 @@ def get_formatted_list(sorted_list):
   return formatted_list
 
 
-def print_report(num_words, sorted_list):
+def print_report(num_words, sorted_list, book_path):
   header = "============ BOOKBOT ============"
-  analysing_message = "Analyzing book found at books/frankenstein.txt..."
+  analysing_message = f"Analyzing book found at {book_path}..."
   word_count_message = "----------- Word Count ----------"
   total_words_message = f"Found {num_words} total words"
   character_count_message = "--------- Character Count -------"
